@@ -1,0 +1,17 @@
+name = Digital Archive User Menu Feature
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = user-menu
+features[menu_links][] = user-menu_about:uuid/node/ac1cb859-2fbc-4c3b-b186-87ea7066c1a9
+features[menu_links][] = user-menu_blogs:uuid/node/14e2b6e1-1cb0-4863-bd60-00043ec1d252
+features[menu_links][] = user-menu_community:uuid/node/f2e51519-13ad-44dd-b53b-e9357a662b78
+features[menu_links][] = user-menu_explore:uuid/node/114630a7-b529-40cb-8d3e-583ab83f10c9
+features[menu_links][] = user-menu_log-out:user/logout
+features[menu_links][] = user-menu_press:uuid/node/f8482b51-948c-46b9-9036-e8ee2fa16a0a
+features[menu_links][] = user-menu_sign-up-for-newsletter:node/7
+features[menu_links][] = user-menu_type-size:<front>
+features[menu_links][] = user-menu_user-account:user
+project path = sites/all/modules/digital_archive_platform_feature

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NYHS Owl Carousel Feature feature.
+ */
+
+include_once 'digital_archive_owl_carousel_feature.features.inc';

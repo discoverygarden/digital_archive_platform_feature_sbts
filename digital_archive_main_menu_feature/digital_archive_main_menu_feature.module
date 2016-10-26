@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NYHS Main Menu Feature feature.
+ */
+
+include_once 'digital_archive_main_menu_feature.features.inc';

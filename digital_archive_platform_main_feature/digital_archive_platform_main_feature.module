@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NYHS Platform Feature feature.
+ */
+
+include_once 'digital_archive_platform_main_feature.features.inc';
