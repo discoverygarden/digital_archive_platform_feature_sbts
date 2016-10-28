@@ -263,202 +263,6 @@ function digital_archive_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_filename';
-  $strongarm->value = 'node-export[node_export_filename:nid-list]([node_export_filename:node-count]-nodes).[node_export_filename:timestamp].[node_export_filename:format]';
-  $export['node_export_filename'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_file_assets_path';
-  $strongarm->value = '';
-  $export['node_export_file_assets_path'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_file_list';
-  $strongarm->value = '10';
-  $export['node_export_file_list'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_file_mode';
-  $strongarm->value = 'inline';
-  $export['node_export_file_mode'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_file_types';
-  $strongarm->value = array(
-    'image_block' => 'image_block',
-    'library_highlighted' => 'library_highlighted',
-    'museum_highlighted' => 'museum_highlighted',
-    'slideshow' => 'slideshow',
-    'article' => 0,
-    'page' => 0,
-    'simplenews' => 0,
-  );
-  $export['node_export_file_types'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_format';
-  $strongarm->value = array(
-    'drupal' => 'drupal',
-    'json' => 0,
-    'serialize' => 0,
-    'xml' => 0,
-    'dsv' => 0,
-  );
-  $export['node_export_format'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_book_mlid_image_block';
-  $strongarm->value = 1;
-  $export['node_export_reset_book_mlid_image_block'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_book_mlid_library_highlighted';
-  $strongarm->value = 1;
-  $export['node_export_reset_book_mlid_library_highlighted'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_book_mlid_museum_highlighted';
-  $strongarm->value = 1;
-  $export['node_export_reset_book_mlid_museum_highlighted'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_book_mlid_page';
-  $strongarm->value = 1;
-  $export['node_export_reset_book_mlid_page'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_book_mlid_simplenews';
-  $strongarm->value = 1;
-  $export['node_export_reset_book_mlid_simplenews'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_book_mlid_slideshow';
-  $strongarm->value = 1;
-  $export['node_export_reset_book_mlid_slideshow'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_changed_article';
-  $strongarm->value = 1;
-  $export['node_export_reset_changed_article'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_changed_image_block';
-  $strongarm->value = 1;
-  $export['node_export_reset_changed_image_block'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_changed_library_highlighted';
-  $strongarm->value = 1;
-  $export['node_export_reset_changed_library_highlighted'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_changed_museum_highlighted';
-  $strongarm->value = 1;
-  $export['node_export_reset_changed_museum_highlighted'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_changed_page';
-  $strongarm->value = 1;
-  $export['node_export_reset_changed_page'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_changed_simplenews';
-  $strongarm->value = 1;
-  $export['node_export_reset_changed_simplenews'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_changed_slideshow';
-  $strongarm->value = 1;
-  $export['node_export_reset_changed_slideshow'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_created_article';
-  $strongarm->value = 1;
-  $export['node_export_reset_created_article'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_created_image_block';
-  $strongarm->value = 1;
-  $export['node_export_reset_created_image_block'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_created_library_highlighted';
-  $strongarm->value = 1;
-  $export['node_export_reset_created_library_highlighted'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_created_museum_highlighted';
-  $strongarm->value = 1;
-  $export['node_export_reset_created_museum_highlighted'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_created_page';
-  $strongarm->value = 1;
-  $export['node_export_reset_created_page'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_created_simplenews';
-  $strongarm->value = 1;
-  $export['node_export_reset_created_simplenews'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'node_export_reset_created_slideshow';
-  $strongarm->value = 1;
-  $export['node_export_reset_created_slideshow'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'service_links_append_to_url';
   $strongarm->value = '';
   $export['service_links_append_to_url'] = $strongarm;
@@ -770,15 +574,15 @@ function digital_archive_platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'theme_default';
-  $strongarm->value = 'nyhs_theme';
+  $strongarm->value = 'digital_archive_theme';
   $export['theme_default'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'theme_nyhs_theme_settings';
+  $strongarm->name = 'theme_digital_archive_theme_settings';
   $strongarm->value = array(
-    'toggle_logo' => 1,
+    'toggle_logo' => 0,
     'toggle_name' => 0,
     'toggle_slogan' => 0,
     'toggle_node_user_picture' => 1,
@@ -786,7 +590,7 @@ function digital_archive_platform_main_feature_strongarm() {
     'toggle_favicon' => 1,
     'toggle_main_menu' => 1,
     'toggle_secondary_menu' => 1,
-    'default_logo' => 0,
+    'default_logo' => 1,
     'logo_path' => '',
     'logo_upload' => '',
     'default_favicon' => 1,
@@ -796,7 +600,7 @@ function digital_archive_platform_main_feature_strongarm() {
     'zen_breadcrumb_separator' => ' › ',
     'zen_breadcrumb_home' => 1,
     'zen_breadcrumb_trailing' => 0,
-    'zen_breadcrumb_title' => 1,
+    'zen_breadcrumb_title' => 0,
     'zen_skip_link_anchor' => 'main-menu',
     'zen_skip_link_text' => 'Jump to navigation',
     'zen_html5_respond_meta' => array(
@@ -806,9 +610,9 @@ function digital_archive_platform_main_feature_strongarm() {
     ),
     'zen_rebuild_registry' => 1,
     'zen_wireframes' => 0,
-    'show_subsequent_pages' => '1',
+    'show_subsequent_pages' => '0',
     'designkit_image' => array(
-      'logo' => 0,
+      'logo' => '13',
     ),
     'designkit_color' => array(
       'background' => '#ffffff',
@@ -824,7 +628,7 @@ function digital_archive_platform_main_feature_strongarm() {
       'footer' => '#f0f0f0',
     ),
   );
-  $export['theme_nyhs_theme_settings'] = $strongarm;
+  $export['theme_digital_archive_theme_settings'] = $strongarm;
 
   return $export;
 }

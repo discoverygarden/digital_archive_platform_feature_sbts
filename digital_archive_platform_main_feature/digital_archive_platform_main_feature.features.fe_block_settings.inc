@@ -28,10 +28,10 @@ function digital_archive_platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'sidebar_first',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -61,10 +61,10 @@ function digital_archive_platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -18,
       ),
       'seven' => array(
@@ -94,10 +94,10 @@ function digital_archive_platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -17,
       ),
       'seven' => array(
@@ -127,10 +127,10 @@ function digital_archive_platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -20,
       ),
       'seven' => array(
@@ -160,10 +160,10 @@ function digital_archive_platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'slideshow',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -34,
       ),
       'seven' => array(
@@ -193,10 +193,10 @@ function digital_archive_platform_main_feature_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -15,
       ),
       'seven' => array(
@@ -228,10 +228,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -37,
       ),
       'seven' => array(
@@ -261,10 +261,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'sidebar_first',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -8,
       ),
       'seven' => array(
@@ -294,10 +294,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -34,
       ),
       'seven' => array(
@@ -327,10 +327,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -34,
       ),
       'seven' => array(
@@ -360,10 +360,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -36,
       ),
       'seven' => array(
@@ -393,10 +393,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -35,
       ),
       'seven' => array(
@@ -426,10 +426,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'navigation',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -459,10 +459,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -35,
       ),
       'seven' => array(
@@ -492,10 +492,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -12,
       ),
       'seven' => array(
@@ -525,10 +525,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'sidebar_second',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -558,10 +558,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -591,10 +591,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -624,10 +624,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -657,10 +657,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'sidebar_first',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -29,
       ),
       'seven' => array(
@@ -690,10 +690,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -4,
       ),
       'seven' => array(
@@ -723,10 +723,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => -1,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 4,
       ),
       'seven' => array(
@@ -756,10 +756,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -789,10 +789,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -822,10 +822,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -855,10 +855,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -888,10 +888,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -29,
       ),
       'seven' => array(
@@ -921,10 +921,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'help',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -954,10 +954,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -34,
       ),
       'seven' => array(
@@ -987,10 +987,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -3,
       ),
       'seven' => array(
@@ -1020,10 +1020,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1053,10 +1053,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 10,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 1,
       ),
       'seven' => array(
@@ -1086,10 +1086,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 8,
       ),
       'seven' => array(
@@ -1119,10 +1119,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -31,
       ),
       'seven' => array(
@@ -1152,10 +1152,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -31,
       ),
       'seven' => array(
@@ -1185,10 +1185,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -32,
       ),
       'seven' => array(
@@ -1218,10 +1218,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'sidebar_first',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1251,10 +1251,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1284,10 +1284,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -33,
       ),
       'seven' => array(
@@ -1317,10 +1317,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -30,
       ),
       'seven' => array(
@@ -1350,10 +1350,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'slideshow',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -35,
       ),
       'seven' => array(
@@ -1383,10 +1383,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -36,
       ),
       'seven' => array(
@@ -1416,10 +1416,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'sidebar_first',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -30,
       ),
       'seven' => array(
@@ -1449,10 +1449,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'footer',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1482,10 +1482,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 15,
       ),
       'seven' => array(
@@ -1515,10 +1515,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'bottom',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1548,10 +1548,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => 'sidebar_first',
         'status' => 1,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => -28,
       ),
       'seven' => array(
@@ -1581,10 +1581,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -1614,10 +1614,10 @@ islandora/search',
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'nyhs_theme' => array(
+      'digital_archive_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'nyhs_theme',
+        'theme' => 'digital_archive_theme',
         'weight' => 0,
       ),
       'seven' => array(
