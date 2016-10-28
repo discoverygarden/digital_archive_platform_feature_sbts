@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * digital_archive_content_types_content_types.features.field_instance.inc
+ * digital_archive_content_types.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function digital_archive_content_types_content_types_field_default_field_instances() {
+function digital_archive_content_types_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'node-image_block-body'.
