@@ -611,8 +611,9 @@ function digital_archive_platform_main_feature_strongarm() {
     'zen_rebuild_registry' => 1,
     'zen_wireframes' => 0,
     'show_subsequent_pages' => '0',
+    'show_image_clip' => '0',
     'designkit_image' => array(
-      'logo' => '13',
+      'logo' => 0,
     ),
     'designkit_color' => array(
       'background' => '#ffffff',
