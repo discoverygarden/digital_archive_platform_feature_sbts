@@ -227,11 +227,31 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
       'identifier' => 'user-menu_log-out:user/logout',
     ),
     'module' => 'system',
-    'hidden' => 1,
+    'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -42,
+    'customized' => 1,
+  );
+  // Exported menu link: user-menu_login:user/login.
+  $menu_links['user-menu_login:user/login'] = array(
+    'menu_name' => 'user-menu',
+    'link_path' => 'user/login',
+    'router_path' => 'user/login',
+    'link_title' => 'Login',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'user-menu_login:user/login',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -43,
     'customized' => 1,
   );
   // Exported menu link: user-menu_press:uuid/node/f8482b51-948c-46b9-9036-e8ee2fa16a0a.
@@ -282,31 +302,6 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
     'weight' => -44,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_type-size:<front>.
-  $menu_links['user-menu_type-size:<front>'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'type size',
-    'options' => array(
-      'attributes' => array(
-        'id' => 'type-size',
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'user-menu_type-size:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -43,
-    'customized' => 1,
-  );
   // Exported menu link: user-menu_user-account:user.
   $menu_links['user-menu_user-account:user'] = array(
     'menu_name' => 'user-menu',
@@ -318,7 +313,7 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
       'identifier' => 'user-menu_user-account:user',
     ),
     'module' => 'system',
-    'hidden' => 1,
+    'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
@@ -329,6 +324,7 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Log out');
+  t('Login');
   t('User account');
   t('about');
   t('advanced search');
@@ -340,7 +336,6 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
   t('home');
   t('press');
   t('sign up for newsletter');
-  t('type size');
   t('visit');
 
   return $menu_links;
