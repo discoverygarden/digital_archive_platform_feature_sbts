@@ -10,10 +10,10 @@
 function digital_archive_user_menu_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_advanced-search:node/11.
-  $menu_links['main-menu_advanced-search:node/11'] = array(
+  // Exported menu link: main-menu_advanced-search:node/15.
+  $menu_links['main-menu_advanced-search:node/15'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/11',
+    'link_path' => 'node/15',
     'router_path' => 'node/%',
     'link_title' => 'advanced search',
     'options' => array(
@@ -27,7 +27,7 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_advanced-search:node/11',
+      'identifier' => 'main-menu_advanced-search:node/15',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -103,10 +103,10 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 0,
   );
-  // Exported menu link: main-menu_visit:node/10.
-  $menu_links['main-menu_visit:node/10'] = array(
+  // Exported menu link: main-menu_visit:node/13.
+  $menu_links['main-menu_visit:node/13'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/10',
+    'link_path' => 'node/13',
     'router_path' => 'node/%',
     'link_title' => 'visit',
     'options' => array(
@@ -115,7 +115,7 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_visit:node/10',
+      'identifier' => 'main-menu_visit:node/13',
     ),
     'module' => 'menu',
     'hidden' => 0,
