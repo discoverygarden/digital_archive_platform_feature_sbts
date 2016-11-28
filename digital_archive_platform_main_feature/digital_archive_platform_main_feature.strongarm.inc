@@ -13,6 +13,34 @@ function digital_archive_platform_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'designkit_color';
+  $strongarm->value = array(
+    'background' => '#ffffff',
+    'highlight' => '#8aac53',
+    'slideshow' => '#d9d3a4',
+    'links' => '#4f91cd',
+    'text' => '#000000',
+    'mainmenu' => '#ffffff',
+    'pagetitle' => '#000000',
+    'header' => '#002f7a',
+    'content' => '#ffffff',
+    'bottomwrapper' => '#002f7a',
+    'footer' => '#f0f0f0',
+  );
+  $export['designkit_color'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'designkit_image';
+  $strongarm->value = array(
+    'logo' => 0,
+  );
+  $export['designkit_image'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'fblikebutton_block_url';
   $strongarm->value = 'http://discoverygarden-vagrant-nyhs.local';
   $export['fblikebutton_block_url'] = $strongarm;
