@@ -146,13 +146,12 @@ function digital_archive_platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['PID']['alter']['strip_tags'] = TRUE;
   $handler->display->display_options['fields']['PID']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['PID']['link_to_object'] = 0;
-  /* Field: Islandora Solr: dc.description */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['label'] = '';
   $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
   /* Filter criterion: Islandora Solr: RELS_EXT_hasModel_uri_mt */
   $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['id'] = 'RELS_EXT_hasModel_uri_mt';
   $handler->display->display_options['filters']['RELS_EXT_hasModel_uri_mt']['table'] = 'islandora_solr';
@@ -504,7 +503,7 @@ function digital_archive_platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['label'] = '';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['element_class'] = 'slideshow-item-text-subtitle';
   $handler->display->display_options['fields']['mods_titleInfo_subTitle_ms']['element_label_colon'] = FALSE;
-  /* Field: Islandora Solr: dc.description */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['dc.description']['id'] = 'dc.description';
   $handler->display->display_options['fields']['dc.description']['table'] = 'islandora_solr';
   $handler->display->display_options['fields']['dc.description']['field'] = 'dc.description';
@@ -515,7 +514,6 @@ function digital_archive_platform_main_feature_views_default_views() {
   $handler->display->display_options['fields']['dc.description']['alter']['trim'] = TRUE;
   $handler->display->display_options['fields']['dc.description']['element_class'] = 'slideshow-item-text-bottom';
   $handler->display->display_options['fields']['dc.description']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['dc.description']['link_to_object'] = 0;
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
