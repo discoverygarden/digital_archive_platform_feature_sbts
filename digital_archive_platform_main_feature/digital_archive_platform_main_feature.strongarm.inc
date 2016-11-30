@@ -16,8 +16,8 @@ function digital_archive_platform_main_feature_strongarm() {
   $strongarm->name = 'designkit_color';
   $strongarm->value = array(
     'background' => '#ffffff',
-    'highlight' => '#8aac53',
-    'slideshow' => '#d9d3a4',
+    'highlight' => '#000000',
+    'slideshow' => '#ffffff',
     'links' => '#4f91cd',
     'text' => '#000000',
     'mainmenu' => '#ffffff',
@@ -34,7 +34,7 @@ function digital_archive_platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'designkit_image';
   $strongarm->value = array(
-    'logo' => 0,
+    'logo' => '9',
   );
   $export['designkit_image'] = $strongarm;
 
@@ -610,7 +610,7 @@ function digital_archive_platform_main_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'theme_digital_archive_theme_settings';
   $strongarm->value = array(
-    'toggle_logo' => 0,
+    'toggle_logo' => 1,
     'toggle_name' => 0,
     'toggle_slogan' => 0,
     'toggle_node_user_picture' => 1,
@@ -641,12 +641,12 @@ function digital_archive_platform_main_feature_strongarm() {
     'show_subsequent_pages' => '0',
     'show_image_clip' => '0',
     'designkit_image' => array(
-      'logo' => 0,
+      'logo' => '9',
     ),
     'designkit_color' => array(
       'background' => '#ffffff',
-      'highlight' => '#8aac53',
-      'slideshow' => '#d9d3a4',
+      'highlight' => '#000000',
+      'slideshow' => '#ffffff',
       'links' => '#4f91cd',
       'text' => '#000000',
       'mainmenu' => '#ffffff',
