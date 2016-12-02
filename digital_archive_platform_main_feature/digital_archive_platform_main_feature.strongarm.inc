@@ -33,9 +33,7 @@ function digital_archive_platform_main_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'designkit_image';
-  $strongarm->value = array(
-    'logo' => '9',
-  );
+  $strongarm->value = array();
   $export['designkit_image'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -640,9 +638,7 @@ function digital_archive_platform_main_feature_strongarm() {
     'zen_wireframes' => 0,
     'show_subsequent_pages' => '0',
     'show_image_clip' => '0',
-    'designkit_image' => array(
-      'logo' => '9',
-    ),
+    'designkit_image' => array(),
     'designkit_color' => array(
       'background' => '#ffffff',
       'highlight' => '#000000',
