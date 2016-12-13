@@ -10,24 +10,25 @@
 function digital_archive_user_menu_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_advanced-search:node/14.
-  $menu_links['main-menu_advanced-search:node/14'] = array(
+  // Exported menu link: main-menu_advanced-search:uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be.
+  $menu_links['main-menu_advanced-search:uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/14',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be',
+    'router_path' => 'uuid',
     'link_title' => 'advanced search',
     'options' => array(
       'attributes' => array(
         'class' => array(
           0 => 'advanced-search',
         ),
+        'title' => '',
       ),
       'item_attributes' => array(
         'id' => '',
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_advanced-search:node/14',
+      'identifier' => 'main-menu_advanced-search:uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -35,7 +36,7 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => 0,
-    'customized' => 0,
+    'customized' => 1,
   );
   // Exported menu link: main-menu_collections:islandora/object.
   $menu_links['main-menu_collections:islandora/object'] = array(
@@ -64,11 +65,11 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 0,
   );
-  // Exported menu link: main-menu_exhibitions:node/6.
-  $menu_links['main-menu_exhibitions:node/6'] = array(
+  // Exported menu link: main-menu_exhibitions:uuid/node/1b77796a-29ef-451e-b21a-862755c05196.
+  $menu_links['main-menu_exhibitions:uuid/node/1b77796a-29ef-451e-b21a-862755c05196'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/6',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/1b77796a-29ef-451e-b21a-862755c05196',
+    'router_path' => 'uuid',
     'link_title' => 'exhibitions',
     'options' => array(
       'item_attributes' => array(
@@ -76,7 +77,10 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_exhibitions:node/6',
+      'identifier' => 'main-menu_exhibitions:uuid/node/1b77796a-29ef-451e-b21a-862755c05196',
+      'attributes' => array(
+        'title' => '',
+      ),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -84,7 +88,7 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -48,
-    'customized' => 0,
+    'customized' => 1,
   );
   // Exported menu link: main-menu_home:<front>.
   $menu_links['main-menu_home:<front>'] = array(
@@ -103,11 +107,11 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 0,
   );
-  // Exported menu link: main-menu_visit:node/12.
-  $menu_links['main-menu_visit:node/12'] = array(
+  // Exported menu link: main-menu_visit:uuid/node/b6f12022-294b-4b77-ad3c-fd3f702d4e29.
+  $menu_links['main-menu_visit:uuid/node/b6f12022-294b-4b77-ad3c-fd3f702d4e29'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/12',
-    'router_path' => 'node/%',
+    'link_path' => 'uuid/node/b6f12022-294b-4b77-ad3c-fd3f702d4e29',
+    'router_path' => 'uuid',
     'link_title' => 'visit',
     'options' => array(
       'item_attributes' => array(
@@ -115,7 +119,10 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_visit:node/12',
+      'identifier' => 'main-menu_visit:uuid/node/b6f12022-294b-4b77-ad3c-fd3f702d4e29',
+      'attributes' => array(
+        'title' => '',
+      ),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -123,7 +130,7 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -49,
-    'customized' => 0,
+    'customized' => 1,
   );
   // Exported menu link: user-menu_about:uuid/node/ac1cb859-2fbc-4c3b-b186-87ea7066c1a9.
   $menu_links['user-menu_about:uuid/node/ac1cb859-2fbc-4c3b-b186-87ea7066c1a9'] = array(
