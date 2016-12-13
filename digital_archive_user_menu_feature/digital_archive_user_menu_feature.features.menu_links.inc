@@ -10,6 +10,33 @@
 function digital_archive_user_menu_feature_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: main-menu_advanced-search:node/14.
+  $menu_links['main-menu_advanced-search:node/14'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/14',
+    'router_path' => 'node/%',
+    'link_title' => 'advanced search',
+    'options' => array(
+      'attributes' => array(
+        'class' => array(
+          0 => 'advanced-search',
+        ),
+      ),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_advanced-search:node/14',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+  );
   // Exported menu link: main-menu_collections:islandora/object.
   $menu_links['main-menu_collections:islandora/object'] = array(
     'menu_name' => 'main-menu',
@@ -37,6 +64,28 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 0,
   );
+  // Exported menu link: main-menu_exhibitions:node/6.
+  $menu_links['main-menu_exhibitions:node/6'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/6',
+    'router_path' => 'node/%',
+    'link_title' => 'exhibitions',
+    'options' => array(
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_exhibitions:node/6',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 0,
+  );
   // Exported menu link: main-menu_home:<front>.
   $menu_links['main-menu_home:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -52,6 +101,28 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -50,
+    'customized' => 0,
+  );
+  // Exported menu link: main-menu_visit:node/12.
+  $menu_links['main-menu_visit:node/12'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/12',
+    'router_path' => 'node/%',
+    'link_title' => 'visit',
+    'options' => array(
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_visit:node/12',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
     'customized' => 0,
   );
   // Exported menu link: user-menu_about:uuid/node/ac1cb859-2fbc-4c3b-b186-87ea7066c1a9.
@@ -256,13 +327,16 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
   t('Login');
   t('User account');
   t('about');
+  t('advanced search');
   t('blogs');
   t('collections');
   t('community');
+  t('exhibitions');
   t('explore');
   t('home');
   t('press');
   t('sign up for newsletter');
+  t('visit');
 
   return $menu_links;
 }
