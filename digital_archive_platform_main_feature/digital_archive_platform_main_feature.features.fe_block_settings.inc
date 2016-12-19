@@ -194,8 +194,8 @@ function digital_archive_platform_main_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'digital_archive_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'sidebar_second',
+        'status' => 1,
         'theme' => 'digital_archive_theme',
         'weight' => -15,
       ),
