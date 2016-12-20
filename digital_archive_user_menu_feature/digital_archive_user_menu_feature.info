@@ -6,6 +6,7 @@ dependencies[] = menu
 features[features_api][] = api:2
 features[menu_custom][] = main-menu
 features[menu_custom][] = user-menu
+features[menu_links][] = main-menu_advanced-search:uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be
 features[menu_links][] = main-menu_collections:islandora/object
 features[menu_links][] = main-menu_exhibitions:uuid/node/1b77796a-29ef-451e-b21a-862755c05196
 features[menu_links][] = main-menu_home:<front>

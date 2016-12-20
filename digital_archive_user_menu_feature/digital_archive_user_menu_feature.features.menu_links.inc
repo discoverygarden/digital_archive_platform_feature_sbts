@@ -10,6 +10,26 @@
 function digital_archive_user_menu_feature_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: main-menu_advanced-search:uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be.
+  $menu_links['main-menu_advanced-search:uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be',
+    'router_path' => 'uuid',
+    'link_title' => 'advanced search',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_advanced-search:uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
   // Exported menu link: main-menu_collections:islandora/object.
   $menu_links['main-menu_collections:islandora/object'] = array(
     'menu_name' => 'main-menu',
@@ -281,6 +301,7 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
   t('Login');
   t('User account');
   t('about');
+  t('advanced search');
   t('blogs');
   t('collections');
   t('community');
