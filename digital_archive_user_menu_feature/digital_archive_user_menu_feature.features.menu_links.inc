@@ -57,31 +57,6 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 0,
   );
-  // Exported menu link: main-menu_exhibitions:node/42.
-  $menu_links['main-menu_exhibitions:node/42'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/42',
-    'router_path' => 'node/%',
-    'link_title' => 'exhibitions',
-    'options' => array(
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_exhibitions:node/42',
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-  );
   // Exported menu link: main-menu_home:<front>.
   $menu_links['main-menu_home:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -98,31 +73,6 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -50,
     'customized' => 0,
-  );
-  // Exported menu link: main-menu_visit:node/48.
-  $menu_links['main-menu_visit:node/48'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/48',
-    'router_path' => 'node/%',
-    'link_title' => 'visit',
-    'options' => array(
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_visit:node/48',
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
   );
   // Exported menu link: user-menu_about:uuid/node/ac1cb859-2fbc-4c3b-b186-87ea7066c1a9.
   $menu_links['user-menu_about:uuid/node/ac1cb859-2fbc-4c3b-b186-87ea7066c1a9'] = array(
@@ -305,11 +255,9 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
   t('blogs');
   t('collections');
   t('community');
-  t('exhibitions');
   t('explore');
   t('home');
   t('press');
-  t('visit');
 
   return $menu_links;
 }

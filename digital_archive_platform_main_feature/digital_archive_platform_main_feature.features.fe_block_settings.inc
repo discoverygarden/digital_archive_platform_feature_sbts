@@ -219,7 +219,8 @@ function digital_archive_platform_main_feature_default_fe_block_settings() {
     'node_types' => array(),
     'pages' => 'advanced-search
 islandora/search/*
-islandora/search',
+islandora/search
+uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
