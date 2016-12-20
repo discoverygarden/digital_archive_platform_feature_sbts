@@ -10,25 +10,17 @@
 function digital_archive_user_menu_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_advanced-search:uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be.
-  $menu_links['main-menu_advanced-search:uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be'] = array(
+  // Exported menu link: main-menu_advanced-search:node/50.
+  $menu_links['main-menu_advanced-search:node/50'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be',
-    'router_path' => 'uuid',
+    'link_path' => 'node/50',
+    'router_path' => 'node/%',
     'link_title' => 'advanced search',
     'options' => array(
       'attributes' => array(
-        'class' => array(
-          0 => 'advanced-search',
-        ),
         'title' => '',
       ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_advanced-search:uuid/node/cfeb10c9-76eb-413b-8339-82cf4fd995be',
+      'identifier' => 'main-menu_advanced-search:node/50',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -284,31 +276,6 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_sign-up-for-newsletter:node/7.
-  $menu_links['user-menu_sign-up-for-newsletter:node/7'] = array(
-    'menu_name' => 'user-menu',
-    'link_path' => 'node/7',
-    'router_path' => 'node/%',
-    'link_title' => 'sign up for newsletter',
-    'options' => array(
-      'identifier' => 'user-menu_sign-up-for-newsletter:node/7',
-      'attributes' => array(
-        'title' => '',
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -44,
-    'customized' => 1,
-  );
   // Exported menu link: user-menu_user-account:user.
   $menu_links['user-menu_user-account:user'] = array(
     'menu_name' => 'user-menu',
@@ -342,7 +309,6 @@ function digital_archive_user_menu_feature_menu_default_menu_links() {
   t('explore');
   t('home');
   t('press');
-  t('sign up for newsletter');
   t('visit');
 
   return $menu_links;
