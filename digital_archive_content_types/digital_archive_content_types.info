@@ -48,7 +48,6 @@ features[field_instance][] = node-slideshow-field_href_target
 features[field_instance][] = node-slideshow-field_read_more_text
 features[field_instance][] = node-slideshow-field_slideshow_image
 features[field_instance][] = node-slideshow-field_sub_title
-features[menu_custom][] = navigation
 features[node][] = image_block
 features[node][] = library_highlighted
 features[node][] = museum_highlighted
